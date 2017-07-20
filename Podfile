@@ -14,6 +14,8 @@ target 'social-media-1' do
   pod 'FBSDKCoreKit'
   pod 'FBSDKLoginKit'
   pod 'FBSDKShareKit'
+  pod 'SwiftKeychainWrapper'
+  
   
   target 'social-media-1Tests' do
     inherit! :search_paths
